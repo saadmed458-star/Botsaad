@@ -1,3 +1,13 @@
+import http from 'http';
+const port = process.env.PORT || 8080;
+http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.write("Anastasia Bot is Running!\n");
+  res.end();
+}).listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
+});
+
 import { fork } from 'child_process';
 import { join, dirname, resolve } from 'path';
 import fs from 'fs-extra';
