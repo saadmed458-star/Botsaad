@@ -9,9 +9,10 @@ const config = {
     defaultPrefix: '.',
 
     pairing:{
-        phone:null,
-        code :null,
+        phone: "22248049282", // ضع رقم هاتفك هنا (بدون + وبدون مسافات)
+        code : "SAAD2026",     // اختر كلمة سر من 8 خانات لتأمين البوت
     },
+
 
 
     botState:{

@@ -4,7 +4,7 @@ let prefix = '.';
 const config = {
     botName: 'Anastasia',
     version: '4.0.0',
-    owner: '972533933401',
+    owner: '22248049282',
 
     defaultPrefix: '.',
 
