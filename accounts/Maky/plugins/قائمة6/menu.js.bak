@@ -140,8 +140,8 @@ ${categoriesList}
 > ⏤͟͟͞͞ ~ 𝑲𝒓𝒐𝒍𝒍𝒐 - 𝑩𝛩𝑻 🕸⃝⃕`;
 
         // مسار الصورة
-        const imagePath = "/storage/emulated/0/.boto/bot/accounts/Maky/nova/killua.jpg";
-        
+const imagePath = path.join(process.cwd(), "killua.jpg");
+
         // معرف القناة (ضع هنا JID قناتك)
         const channelJid = "https://whatsapp.com/channel/0029VbCCWFX1SWsubUJJU53c@newsletter"; // ⚠️ غير هذا إلى JID قناتك الحقيقي
         const channelName = "𝑲𝒓𝒐𝒍𝒍𝒐 𝑩𝒐𝒕";
